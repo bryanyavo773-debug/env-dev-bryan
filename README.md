@@ -20,3 +20,7 @@ Environnement de développement de Awa KONE – B1 DEV, IFRAN.
 | Processeurs | 8                  |
 | Mémoire     | 7,6 Go             |
 | Utilisateur | bryan              |
+
+## Historique
+
+Ce dossier est suivi avec Git depuis le sous-module 2.
