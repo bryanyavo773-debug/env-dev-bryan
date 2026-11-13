@@ -15,4 +15,8 @@
 
 ## Lire et chercher
 
-…
+## Branche
+
+| Commande     | Ce qu'elle fait    | Exemple |
+| ------------ | ------------------ | ------- |
+| `git branch` | Liste les branches | `*`     |
