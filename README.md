@@ -58,10 +58,12 @@ Résultat attendu : une version pour Ubuntu, Git, Node.js, npm et tree.
 
 ## Contenu du dossier
 
-| Fichier ou dossier     | Rôle                                                          |
-| ---------------------- | ------------------------------------------------------------- |
-| `README.md`            | Cette documentation                                           |
-| `JOURNAL.md`           | Le journal de mes choix                                       |
-| `docs/aide-memoire.md` | regroupe les commandes de Linux                               |
-| `scripts/installer.sh` | Automatise l'installation des outils nécessaires du projet    |
-| `scripts/verifier.sh`  | Verifie que les outils sont installés et affiche leur version |
+## Contenu du projet
+
+| Fichier / Dossier      | Description                                                          |
+| :--------------------- | :------------------------------------------------------------------- |
+| `README.md`            | Documentation générale du projet                                     |
+| `JOURNAL.md`           | Journal des choix techniques et des décisions prises                 |
+| `docs/aide-memoire.md` | Aide-mémoire regroupant les principales commandes Linux              |
+| `scripts/installer.sh` | Script qui automatise l'installation des outils nécessaires          |
+| `scripts/verifier.sh`  | Script qui vérifie l'installation et affiche les versions des outils |
