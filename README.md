@@ -1,4 +1,4 @@
-# env-dev-bryan (B1 DEV, IFRAN)
+# env-dev-bryan (B1 DEV, IFRAN) – Mon environnement de développement
 
 Environnement de développement de Awa KONE – B1 DEV, IFRAN.
 
