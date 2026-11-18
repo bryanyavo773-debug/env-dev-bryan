@@ -34,3 +34,7 @@
 | `tail`   | Affiche les dernières lignes d'un fichier | `tail README.md`            |
 | `grep`   | Recherche un mot dans un fichier          | `grep "Linux" README.md`    |
 | `find`   | Recherche un fichier ou un dossier        | `find . -name "index.html"` |
+
+## Astuce de bryan
+
+`git log --oneline --graph` dessine l'historique avec les branches.
