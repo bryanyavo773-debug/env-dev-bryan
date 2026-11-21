@@ -15,15 +15,11 @@
 
 - \*\*Raison :\*\* Bash est installé par défaut sur de nombreuses distributions Linux. Il permet d'exécuter les commandes nécessaires pour gérer les fichiers, installer des logiciels et travailler avec Git et Node.js.
 
-## 2026-11-11 -installation de tree
-
 ## 2026-11-11 – Installation de tree
 
 - **Décision :** Installer l'outil `tree` avec la commande `sudo apt install tree`.
 - **Alternatives envisagées :** Utiliser la commande `ls` ou installer un autre outil d'affichage des dossiers.
 - **Raison :** `tree` permet d'afficher l'organisation des fichiers et des dossiers sous forme d'arborescence. Cela facilite la visualisation et la compréhension de la structure du projet.
-
-## 2026-11-13 - hébergement du dépôt : Github
 
 ## 2026-11-13 – Hébergement du dépôt : GitHub
 
