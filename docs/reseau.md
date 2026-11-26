@@ -42,3 +42,37 @@ Quand je tape `https://github.com` dans mon navigateur :
 | 301  | Moved Permanently     | La page a été déplacée définitivement vers une autre adresse. | Redirection automatique vers une nouvelle URL |
 | 404  | Not Found             | La page demandée n'existe pas ou est introuvable.             | Ouverture d'une page qui n'existe pas         |
 | 500  | Internal Server Error | Une erreur interne s'est produite sur le serveur.             | (Pas vu)                                      |
+
+Voici le tableau complété et bien formaté pour ton fichier `docs/aide-memoire.md`. Tu peux le copier directement dans VS Code.
+
+## **Les ports**
+
+| Port | Service                        | Exemple d'URL           |
+| ---- | ------------------------------ | ----------------------- |
+| 80   | HTTP (connexion non sécurisée) | `http://localhost`      |
+| 443  | HTTPS (connexion sécurisée)    | `https://google.com`    |
+| 8000 | Serveur de développement local | `http://localhost:8000` |
+
+## **Diagnostiquer une erreur**
+
+Les 4 questions, dans l'ordre :
+
+1. **Le nom est-il trouvé ?** → `nslookup <nom>`
+2. **Le serveur répond-il ?** → `ping <nom>`
+3. **Le port est-il accessible ?** → `curl -I http://<nom>:<port>`
+4. **Le service fonctionne-t-il correctement ?** → Vérifier les messages d'erreur dans le terminal et les journaux (logs).
+
+### **Exemple : une panne que j'ai réparée**
+
+- **Symptôme :** La page web ne s'affichait pas dans le navigateur.
+- **Étape :** J'ai vérifié si le serveur était démarré et si le port utilisé était correct.
+- **Cause :** Le serveur de développement n'était pas lancé.
+- **Correction :** J'ai démarré le serveur avec la commande `npm run dev`.
+- **Vérification :** J'ai actualisé la page dans le navigateur et le site s'est affiché correctement.
+
+**À retenir :**
+
+- `nslookup` vérifie la résolution du nom de domaine.
+- `ping` teste si une machine répond au réseau (mais certains serveurs bloquent le ping).
+- `curl` permet de tester une requête HTTP.
+- Les logs permettent de comprendre les erreurs du programme.
