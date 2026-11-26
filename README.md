@@ -54,7 +54,7 @@ Ce dossier est suivi avec Git depuis le sous-module 2.
 ## Vérification
 
 Lancer `./scripts/verifier.sh` dans Ubuntu.
-Résultat attendu : une version pour Ubuntu, Git, Node.js, npm et tree.
+Résultat attendu : une version pour Ubuntu, Git, Node.js, npm et tree une version de Python et HTTP/2 200 
 
 ## Contenu du projet
 
